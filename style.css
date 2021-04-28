@@ -1,0 +1,133 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, h3, p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    color: #FFF;
+}
+
+header
+{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.game-container
+{
+    background-color: #FFF;
+    padding: 5% 10%;
+}
+
+.game-container header
+{
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+    color: lightcoral;
+}
+
+.result-output
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.result-header
+{
+    margin: 1.5rem auto;
+
+}
+
+.result-number
+{
+    margin: auto;
+}
+
+.output-img
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.user-img, .cpu-img
+{
+    margin: 3rem auto 1rem;
+    border: 1px solid #FFF;
+    width: 30%;
+    min-height: 5rem;
+}
+
+.output-btns
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem 0 2rem;
+    
+}
+
+.output-btns button
+{
+    padding: 7%;
+    border-radius:100%;
+    border: none;
+    margin: auto;
+    width: 40%; 
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.output-btns button:hover
+{
+    color: #FFF;
+    transition: all 0.5s ease;
+}
+
+footer
+{
+    padding: 3% 15%;
+    margin: auto;
+    color: #FFF;
+}
+
+.show-winner
+{
+    color: lightcoral;
+}
+
+.reset-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    
+}
+
+.reset-score
+{
+    background-color: lightcoral;
+    border: none;
+    border-radius: 100%;
+    padding: 3%;
+    cursor: pointer;
+    
+}
+
+.reset-score:hover
+{
+    color: #FFF;
+    transition: all 0.5s ease;
+}

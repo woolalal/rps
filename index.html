@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Vanilla Javascript</header>
+    <h3>Rock, Paper, Scissors</h3>
+    <p>Satisfy your curiosity and indulge in a simple game of Rock, Paper, Scissors!</p>
+
+    <div class="game-container">
+        <header>ROUND<span>1</span></header>
+        <div class="result-output">
+            <div class="result-header">WIN</div>
+            <div class="result-header">TIES</div>
+            <div class="result-header">WIN</div>
+        </div>
+        <div class="result-output">
+            <div class="result-number">0</div>
+            <div class="result-number">0</div>
+            <div class="result-number">0</div>
+        </div>
+        <div class="output-img">
+            <img src="images/1.jpg" alt="img" class="user-img">
+            <img src="images/1.jpg" alt="img" class="cpu-img">
+        </div>
+        <div class="output-winner">
+            <p class="show-winner"></p>
+        </div>
+        <div class="output-btns">
+            <button class="rock-img"><i class="fas fa-hand-rock fa-2x"></i></button>
+            <button class="scissors-img"><i class="fas fa-hand-scissors fa-2x"></i></button>
+            <button class="paper-img"><i class="fas fa-hand-paper fa-2x"></i></button>
+        </div>
+
+        <div class="reset-container">
+            <button class="reset-score">Reset Score!</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &#169 2021 Cedric Woo</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
